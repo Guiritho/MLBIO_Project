@@ -1,2 +1,19 @@
 # MLBIO_Project
-Apply a published method to a new dataset. Can the Golub weighted-voting method classify malignant breast samples accurately and robustly?
+
+## Setup
+```bash
+pip install -r requirements.txt
+```
+
+## Running the Project
+```bash
+cd src/ && python main.py
+```
+
+## Environment Variables
+```bash
+export SEED=34
+```
+
+## Description
+This project applies the Golub weighted-voting method to classify malignant breast samples. The method is evaluated for its accuracy and robustness on a new dataset.
